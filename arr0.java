@@ -21,20 +21,21 @@ public class arr0
         System.out.println("Your original array");
         for(i=0;i<n;i++)
         {
-            System.out.println(arr[i]+" , ");
+            System.out.print(arr[i]+" , ");
         }
+        System.out.println();
         System.out.println("Your original array with - (Move All Zeros to the End)");
         for(i=0;i<n;i++)
         {
             if(arr[i]!=0)
             {
-                 num[i]=arr[i];
+                 num[x]=arr[i];
                  x++;
             }
    
             else
             {
-                 zer[i]=arr[i];
+                 zer[y]=arr[i];
                  y++;
             }
                
@@ -45,7 +46,7 @@ public class arr0
         }
         for(i=0;i<(n-x);i++)
         {
-            System.out.println(zer[i]+" , ");
+            System.out.print(zer[i]+" , ");
         }
 
     }
