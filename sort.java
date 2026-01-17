@@ -6,11 +6,9 @@ public class sort
     {
         Scanner in = new Scanner (System.in); 
         int n,i;
-        int x=0,y=0;
         System.out.println("Enter Size of array");
         n=in.nextInt();
-        int arr[]={5,0,6,2,1,4};
-        /*int arr[]=new int[n];
+        int arr[]=new int[n];
         System.out.println("Enter elements in array");
         for(i=0;i<n;i++)
         {
@@ -22,20 +20,11 @@ public class sort
             System.out.print(arr[i]+" , ");
         }
         System.out.println();
-        for(i=0;i<5;i++)
-        {
-            if(arr[i]>arr[i+1])
-            {
-                arr[i+1]=arr[i];
-            }
-        }*/
         Arrays.sort(arr);
         System.out.println(Arrays.toString(arr));
-        System.out.println("Your original array");
-        for(i=0;i<5;i++)
-        {
-            System.out.print(arr[i]+" , ");
-        }
+        System.out.println("Second Highest Array's Element");     
+        System.out.print(arr[((arr.length)-2)]);
+        
         
     }
     
