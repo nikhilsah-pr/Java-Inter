@@ -5,20 +5,20 @@ public class trans
     {
         Scanner in = new Scanner(System.in);
         int i,j;
-        int arr[][]={{5,6,8,8,4},{4,6,2,7,1},{6,3,9,1,2}};
+        int arr[][]={{5,6,8},{4,6,2},{6,3,9}};
         System.out.println("OG Array");
-        for(i=0;i<5;i++)
+        for(i=0;i<3;i++)
         {
-            for(j=0;j<5;j++)
+            for(j=0;j<3;j++)
             {
                 System.out.print(arr[i][j]+" , ");
             }
             System.out.println();
         }
         System.out.println("Diagonal Elements");
-        for(i=0;i<5;i++)
+        for(i=0;i<3;i++)
         {
-            for(j=0;j<5;j++)
+            for(j=0;j<3;j++)
             {
                 if(i==j)
                     System.out.print(arr[i][j]);
