@@ -21,7 +21,7 @@ public class trans
             for(j=0;j<3;j++)
             {
                 if(i==j)
-                    System.out.print(arr[i][j]);
+                    System.out.print(arr[i][j]+" ");
                 else
                     System.out.print(" ");
 
@@ -34,7 +34,7 @@ public class trans
             for(j=0;j<3;j++)
             {
                 if(!(i==j))
-                    System.out.print(arr[i][j]);
+                    System.out.print(arr[i][j]+" ");
                 else
                     System.out.print(" ");
 
