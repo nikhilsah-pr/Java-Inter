@@ -13,9 +13,9 @@ public class reverse
         }
         else
         {
-            for(int i=0;i<n;i++)
+            while(n!=0)
             {
-
+                
             }
 
         }
