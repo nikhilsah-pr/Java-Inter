@@ -15,7 +15,7 @@ public class reverse
         {
             while(n!=0)
             {
-                
+                System.out.println("op");
             }
 
         }
