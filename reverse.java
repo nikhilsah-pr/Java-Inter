@@ -16,6 +16,10 @@ public class reverse
             while(n!=0)
             {
                 System.out.println("op");
+                for(int i=0;i<n;i++)
+                {
+                    
+                }
             }
 
         }
