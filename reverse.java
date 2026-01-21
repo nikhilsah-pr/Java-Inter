@@ -6,6 +6,7 @@ public class reverse
         Scanner in =new Scanner(System.in);
         System.out.println("enter a number");
         int n;
+        int rem, di=0;
         n=in.nextInt();
         if(n==0 && n<0)
         {
@@ -13,16 +14,20 @@ public class reverse
         }
         else
         {
+            
             while(n!=0)
             {
                 System.out.println("op");
                 for(int i=0;i<n;i++)
                 {
-                    
+                    rem=n/10;
+                    di = di*10 + rem;
+                    n=n/10;
                 }
             }
 
         }
+        System.out.println("Reverse : "+ di);
 
     }
 }
