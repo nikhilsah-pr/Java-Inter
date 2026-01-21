@@ -16,14 +16,10 @@ public class reverse
         {
             
             while(n!=0)
-            {
-                System.out.println("op");
-                for(int i=0;i<n;i++)
-                {
-                    rem=n/10;
+            {                      
+                    rem=n%10;
                     di = di*10 + rem;
-                    n=n/10;
-                }
+                    n=n/10;    
             }
 
         }
